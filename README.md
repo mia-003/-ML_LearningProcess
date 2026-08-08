@@ -27,7 +27,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 from sklearn.metrics import mean_squared_error, r2_score
 y_pred=regressor.predict(X_test)
 print(mean_squared_error(y_test, y_pred))
-
+print(r2_score(y_test, y_pred))
 ```
 #### 绘制结果图 Plotting
 ### 回归 Regression 
