@@ -37,7 +37,7 @@ from sklearn.linear_model import LinearRegression
 redressor=LinearRegression().fit(X_train, y_train)
 ```
 #### logistic: y=1/(1+e^-(a+bx))
-#### 评估指标
+#### 回归常用的评估指标
 
 ### 模型 web应用
 ### 分类classification
