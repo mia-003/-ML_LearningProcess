@@ -9,7 +9,7 @@ GitHub项目学习[[# https://github.com/DataTalksClub/machine-learning-zoomcamp
 "Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities."
 ```
 from sklearn.datasets improt load_diabetes
-from sklearn.model_selection import train_test_split %%  %%
+from sklearn.model_selection import train_test_split %% 导入 %%
 ```
 ### 回归regression 
 #### linear: y=a+bx
