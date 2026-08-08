@@ -51,7 +51,7 @@ MAE = mean_squared_error(y_test, y_pred)
 ```
 - RMSE 均方根误差：RMSE = √MSE
 - R^2 ：决定系数
-- 
+	
 ### 模型 web应用
 ### 分类classification
 ### 聚类clustering
