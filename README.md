@@ -38,7 +38,7 @@ redressor=LinearRegression().fit(X_train, y_train)
 ```
 #### logistic: y=1/(1+e^-(a+bx))
 #### 回归常用的评估指标
-- MAE 平均绝对误差：｜pred-test｜
+- MAE 平均绝对误差：sum(｜pred-test｜)
 ```
 from sklearn.metrics import mean_absolute_error
 MAE = mean_absolute_error(y_test, y_pred)
