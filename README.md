@@ -21,7 +21,7 @@ diabetes_raw=load_diavetes(as_frame=True %% X为DataFrame格式 %%, scaled=False
 diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
 
-### 回归regression 
+### 回归 Regression 
 #### linear: y=a+bx
 #### polynomial: y=ax+bx+cx^2
 #### logistic: y=1/(1+e^-(a+bx))
