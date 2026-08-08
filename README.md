@@ -43,7 +43,7 @@ redressor=LinearRegression().fit(X_train, y_train)
 from sklearn.metrics import mean_absolute_error
 MAE = mean_absolute_error(y_test, y_pred)
 ```
-- MSE 平均均方误差：｜pred-test｜^2
+- MSE 平均均方误差：｜pred-test)^2
 	越小越好，最佳值为0，对极端值敏感
 ```
 from sklearn.metrics import mean_squared_error
