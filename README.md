@@ -39,7 +39,8 @@ redressor=LinearRegression().fit(X_train, y_train)
 #### logistic: y=1/(1+e^-(a+bx))
 #### 回归常用的评估指标
 - MAE 平均绝对误差：｜pred-test｜
-  
+
+
 ### 模型 web应用
 ### 分类classification
 ### 聚类clustering
