@@ -22,7 +22,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
 
 ### 回归 Regression 
-#### linear: y=a+bx
+#### 线性 Linear: y=a+bx
 ```
 from sklearn.linear_model import LinearRegression
 redressor=LinearRegression().fit(X_train, y_train)
