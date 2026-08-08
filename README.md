@@ -41,7 +41,6 @@ redressor=LinearRegression().fit(X_train, y_train)
 - MAE 平均绝对误差：｜pred-test｜
 ```
 
-
 ```
 ### 模型 web应用
 ### 分类classification
