@@ -44,6 +44,7 @@ from sklearn.metrics import mean_absolute_error
 MAE = mean_absolute_error(y_test, y_pred)
 ```
 - MSE 平均均方误差：｜pred-test｜^2
+	yue xiao yue hao
 ```
 from sklearn.metrics import mean_squared_error
 MAE = mean_squared_error(y_test, y_pred)
