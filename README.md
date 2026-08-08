@@ -25,7 +25,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 #### linear: y=a+bx
 ```
 from sklearn.linear_model import LinearRegression
-redressor=LinearRegressio().fit(X_train)
+redressor=LinearRegressio().fit(X_train, y_train)
 ```
 #### logistic: y=1/(1+e^-(a+bx))
 
