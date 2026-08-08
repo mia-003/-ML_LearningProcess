@@ -43,6 +43,7 @@ redressor=LinearRegression().fit(X_train, y_train)
 from sklearn.metrics import mean_absolute_error
 MAE = mean_absolute_error(y_test, y_pred)
 ```
+-- 
 ### 模型 web应用
 ### 分类classification
 ### 聚类clustering
