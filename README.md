@@ -48,7 +48,7 @@ MAE = mean_absolute_error(y_test, y_pred)
 from sklearn.metrics import mean_squared_error
 MAE = mean_squared_error(y_test, y_pred)
 ```
-- RMSE 均方根误差：
+- RMSE 均方根误差：RMSE = √MSE
 
 ### 模型 web应用
 ### 分类classification
