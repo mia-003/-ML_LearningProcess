@@ -40,7 +40,8 @@ redressor=LinearRegression().fit(X_train, y_train)
 #### 回归常用的评估指标
 - MAE 平均绝对误差：｜pred-test｜
 ```
-from sklearn.metrics import mean_absolute
+from sklearn.metrics import mean_absolute_error
+
 ```
 ### 模型 web应用
 ### 分类classification
