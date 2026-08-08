@@ -51,7 +51,8 @@ MAE = mean_squared_error(y_test, y_pred)
 ```
 - RMSE 均方根误差：RMSE = √MSE
 - R^2 ：决定系数
-	越接近1越表示“能解释目标变量的i”
+	越接近1越表示“能解释目标变量的变化”
+	
 ### 模型 web应用
 ### 分类classification
 ### 聚类clustering
