@@ -24,7 +24,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ### 回归 Regression 
 #### linear: y=a+bx
 ```
-from 
+from sklearn.linear_model import [LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression "sklearn.linear_model.LinearRegression")
 ```
 #### logistic: y=1/(1+e^-(a+bx))
 
