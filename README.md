@@ -12,7 +12,8 @@ from sklearn.datasets improt load_diabetes %% 导入数据集 %%
 from sklearn.model_selection import train_test_split %% 导入训练测试工具 %%
 X, y=load_diabetes(return_X_y=True)%% 函数完成解包赋值，对X赋为特征矩阵features、y赋为目标变量target %%
 ```
-#### 查看数据集yuan shi
+#### 查看原始数据集
+
 ### 回归regression 
 #### linear: y=a+bx
 #### polynomial: y=ax+bx+cx^2
