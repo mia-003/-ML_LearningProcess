@@ -17,7 +17,8 @@ X, y=load_diabetes(return_X_y=True)
 ```
 #### 查看原始数据集
 ```
-`diagetes_raw=load_diavetes(as_frame=True %% X为DataFrame格式 %%, scaled=False %% 不进行标准化处理 %%) `
+diagetes_raw=load_diavetes(as_frame=True %% X为DataFrame格式 %%, scaled=False %% 不进行标准化处理 %%) 
+diabetes_raw.frame.head(10)
 ```
 
 ### 回归regression 
