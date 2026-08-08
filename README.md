@@ -25,7 +25,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
 %% 导入MSE（均方误差）和R^2系数用于评估模型效果 %%
 from sklearn.metrics import mean_squared_error, r2_score
-y_pred=
+y_pred=regressor.predict()
 ```
 #### 绘制结果图 Plotting
 ### 回归 Regression 
