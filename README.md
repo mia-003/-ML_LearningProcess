@@ -12,7 +12,8 @@ GitHub项目学习[[# https://github.com/DataTalksClub/machine-learning-zoomcamp
 from sklearn.datasets improt load_diabetes 
 %% 导入训练测试工具 %%
 from sklearn.model_selection import train_test_split
-X, y=load_diabetes(return_X_y=True)%% 函数完成解包赋值，对X赋为特征矩阵features、y赋为目标变量target %%
+%% 函数完成解包赋值，对X赋为特征矩阵features、y赋为目标变量target %%
+X, y=load_diabetes(return_X_y=True)
 ```
 #### 查看原始数据集
 
