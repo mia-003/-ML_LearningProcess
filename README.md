@@ -16,7 +16,6 @@ from sklearn.model_selection import train_test_split
 X, y=load_diabetes(return_X_y=True)
 ```
 #### 查看原始数据集
-
 `jj`
 ### 回归regression 
 #### linear: y=a+bx
