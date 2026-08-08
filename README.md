@@ -20,7 +20,7 @@ X, y=load_diabetes(return_X_y=True)
 diabetes_raw=load_diavetes(as_frame=True %% X为DataFrame格式 %%, scaled=False %% 不进行标准化处理 %%) 
 diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
-
+#### mo xing
 ### 回归 Regression 
 #### 线性 Linear: y=a+bx
 ```
