@@ -33,7 +33,7 @@ print(r2_score(y_test, y_pred))
 ```
 import matplotlib.pyplot as plt
 %% 创建两张子图，共享x、y轴 %%
-fig, ax 
+fig, ax=plt.subplot()
 ```
 ### 回归 Regression 
 #### 线性 Linear: y=a+bx
