@@ -32,7 +32,7 @@ print(r2_score(y_test, y_pred))
 #### 绘制结果图 Plotting
 ```
 import matplotlib.pyplot as plt
-%% 创建liang zhang zi %%
+%% 创建两张子图，共享x、一周 %%
 
 ```
 ### 回归 Regression 
