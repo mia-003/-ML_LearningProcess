@@ -31,7 +31,7 @@ print(r2_score(y_test, y_pred))
 ```
 #### 绘制结果图 Plotting
 ```
-import matplotlib.pyplot s
+import matplotlib.pyplot as plt
 
 ```
 ### 回归 Regression 
