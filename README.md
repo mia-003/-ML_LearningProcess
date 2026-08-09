@@ -32,6 +32,7 @@ print(r2_score(y_test, y_pred))
 #### 绘制结果图 Plotting
 ```
 import matplotlib.pyplot as plt
+%% 创建liang zhang zi %%
 
 ```
 ### 回归 Regression 
