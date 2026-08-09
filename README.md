@@ -52,7 +52,7 @@ from sklearn.metrics import mean_squared_error
 MAE = mean_squared_error(y_test, y_pred)
 ```
 - RMSE 均方根误差：RMSE = √MSE =√mean((pred-test)^2)
-- R^2 Coefficient of ：决定系数
+- R^2 Coefficient of determination：决定系数
 	越接近1越表示“能解释目标变量的变化”
 ```
 from sklearn.metrics import r2_score
