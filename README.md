@@ -34,6 +34,8 @@ print(r2_score(y_test, y_pred))
 import matplotlib.pyplot as plt
 %% 创建两张子图在同行，共享x、y轴 %%
 fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
+%% a x %%
+ax[0].scatter(X_train, y_train, label="Train data points")
 ```
 ### 回归 Regression 
 #### 线性 Linear: y=a+bx
