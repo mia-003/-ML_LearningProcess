@@ -32,7 +32,7 @@ print(r2_score(y_test, y_pred))
 #### 绘制结果图 Plotting
 ```
 import matplotlib.pyplot as plt
-%% 创建两张子图，共享x、y轴 %%
+%% 创建两张tong h子图，共享x、y轴 %%
 fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
 ```
 ### 回归 Regression 
