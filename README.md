@@ -38,7 +38,7 @@ print(r2_score(y_test, y_pred))
 from sklearn.linear_model import LinearRegression
 redressor=LinearRegression().fit(X_train, y_train)
 ```
-#### logistic: y=1/(1+e^-(a+bx))
+#### Logistic: y=1/(1+e^-(a+bx))
 #### 回归常用的评估指标
 - MAE 平均绝对误差：mean(｜pred-test｜)
 ```
