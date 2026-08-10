@@ -59,7 +59,7 @@ ax[0].plot(
 ```
 ### 回归 Regression 
 #### 线性回归 Linear: y=a+bx
-#### 逻辑回归Logistic: y=1/(1+e^-(a+bx))
+#### 逻辑回归 Logistic: y=1/(1+e^-(a+bx))
 #### 回归常用的评估指标
 - MAE 平均绝对误差：mean(｜pred-test｜)
 ```
