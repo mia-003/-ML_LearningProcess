@@ -28,7 +28,7 @@ from sklearn.linear_model import LinearRegression
 model = linear_model.LinearRegression()
 model.fit(X_train, y_train)%%
 %% 训练集输入 %%
-regressor=LinearRegression().fit(X_train, y_train)
+model=LinearRegression().fit(X_train, y_train)
 %% 调用模型输出预测集 %%
 y_pred=regressor.predict(X_test)
 ```
