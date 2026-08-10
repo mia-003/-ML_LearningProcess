@@ -77,7 +77,7 @@ ax[1].plot(X_test, y_pred,
 	linewidth=3,
 	color="tab:orange",
 	label="Model predictions")
-p l t
+plt.show()
 ```
 ### 回归 Regression 
 #### 线性回归 Linear: y=a+bx
