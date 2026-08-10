@@ -43,7 +43,8 @@ print(r2_score(y_test, y_pred))
 ```
 #### 绘制结果图 Plotting
 ```
-import 
+import numpy
+%%  %%
 ```
 ```
 import matplotlib.pyplot as plt
