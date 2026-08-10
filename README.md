@@ -45,7 +45,7 @@ print(r2_score(y_test, y_pred))
 ```
 import numpy
 %% 特征值排序，方便绘图 %%
-
+order_X=
 ```
 ```
 import matplotlib.pyplot as plt
