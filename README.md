@@ -51,7 +51,7 @@ ax[0].scatter(X_train, y_train, label="Train data points")
 ax[1].scatter(X_test, y_test, label="Test data points")
 ax[0].plot(
     X_train,
-    regressor.predict(X_train),
+    model.predict(X_train),
     linewidth=3,
     color="tab:orange",
     label="Model predictions",)
