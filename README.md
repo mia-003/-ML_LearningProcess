@@ -45,7 +45,8 @@ print(r2_score(y_test, y_pred))
 ```
 import numpy
 %% 特征值排序，方便绘图 %%
-order = np.argsorx(X_train[:,0])```
+order = np.argsorx(X_train[:,0])
+```
 ```
 import matplotlib.pyplot as plt
 
