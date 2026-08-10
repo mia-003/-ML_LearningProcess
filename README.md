@@ -60,7 +60,7 @@ ax[0].plot(
     linewidth=3,
     color="tab:orange",
     label="Model predictions",)
-%% ax[1]为第二张图，展示测试集  %%
+%% ax[1]为第二张图，展示测试集 %%
 ax[1].scatter(X_test, y_test, label="Test data points")
 ax[1].plot(X_test, y_pred, 
 	linewidth=3,
