@@ -38,6 +38,7 @@ fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
 ax[0].scatter(X_train, y_train, label="Train data points")
 ax[1].scatter(X_test, y_test, label="Test data points")
 
+
 ```
 ### 回归 Regression 
 #### 线性 Linear: y=a+bx
