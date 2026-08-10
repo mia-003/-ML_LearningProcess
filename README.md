@@ -49,7 +49,6 @@ order = np.argsorx(X_train[:,0])
 ```
 ```
 import matplotlib.pyplot as plt
-
 %% 创建两张子图在同行，共享x、y轴 %%
 fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
 %% ax[0]为第一张图，散点图展示训练集；ax[1]为第二张图，展示测试集 %%
