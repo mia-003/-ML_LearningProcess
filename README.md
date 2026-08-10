@@ -42,7 +42,9 @@ print(mean_squared_error(y_test, y_pred))
 print(r2_score(y_test, y_pred))
 ```
 #### 绘制结果图 Plotting
-
+```
+import 
+```
 ```
 import matplotlib.pyplot as plt
 
