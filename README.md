@@ -44,7 +44,8 @@ print(r2_score(y_test, y_pred))
 #### 绘制结果图 Plotting
 ```
 import numpy
-%% 特征值排序，方便hui tu %%
+%% 特征值排序，方便绘图 %%
+
 ```
 ```
 import matplotlib.pyplot as plt
