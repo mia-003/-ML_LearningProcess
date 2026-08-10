@@ -29,9 +29,10 @@ model=LinearRegression().fit(X_train, y_train)
 %% 调用模型输出预测集 %%
 y_pred=model.predict(X_test)
 
-%% 或者from sklearn import linear_model
+%% 或者 %%
+from sklearn import linear_model
 model = linear_model.LinearRegression()
-model.fit(X_train, y_train)%%
+model.fit(X_train, y_train)
 ```
 #### 模型评估
 ```
