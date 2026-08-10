@@ -24,13 +24,10 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
 %% 以线性回归为例 %%
 from sklearn.linear_model import LinearRegression 
-%% 或者from sklearn import linear_model
-model = linear_model.LinearRegression()
-model.fit(X_train, y_train)%%
 %% 训练集输入 %%
 model=LinearRegression().fit(X_train, y_train)
 %% 调用模型输出预测集 %%
-y_pred=regressor.predict(X_test)
+y_pred=model.predict(X_test)
 ```
 #### 模型评估
 ```
