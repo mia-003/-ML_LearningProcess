@@ -23,7 +23,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 #### 模型调用
 ```
 %% 以线性回归为例 %%
-from sklearn.linear_model import 
+from sklearn.linear_model import Linear R e g re s si o n
 
 
 ```
