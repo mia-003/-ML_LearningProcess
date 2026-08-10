@@ -33,7 +33,6 @@ regressor=LinearRegression().fit(X_train, y_train)
 ```
 %% 导入MSE（均方误差）和R^2系数用于评估模型效果 %%
 from sklearn.metrics import mean_squared_error, r2_score
-y_pred=regressor.predict(X_test)
 print(mean_squared_error(y_test, y_pred))
 print(r2_score(y_test, y_pred))
 ```
