@@ -53,13 +53,13 @@ import matplotlib.pyplot as plt
 fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
 %% ax[0]为第一张图，散点图展示训练集；ax[1]为第二张图，展示测试集 %%
 ax[0].scatter(X_train[order], y_train, label="Train data points")
-ax[1].scatter(X_test, y_test, label="Test data points")
 ax[0].plot(
     X_train[order], %% 横坐标 %%
     model.predict(X_train), %% 纵坐标 %%
     linewidth=3,
     color="tab:orange",
     label="Model predictions",)
+
 ax[1].plot(X_test, y_pred, 
 	linewidth=3,
 	color="tab:orange",
