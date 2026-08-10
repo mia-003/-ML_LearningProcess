@@ -54,7 +54,7 @@ fig, ax=plt.subplot(ncols=2, figsize=(10,5), sharex=True, sharey=True)
 
 %% ax[0]为第一张图，散点图展示训练集 %%
 ax[0].scatter(X_train[order], y_train, label="Train data points")
-%% ax[0]的直线绘制预测线（用于观察） %%
+%% ax[0]的直线绘制预测线（用于观察拟合情况） %%
 ax[0].plot(
     X_train[order], %% 横坐标 %%
     model.predict(X_train), %% 纵坐标 %%
