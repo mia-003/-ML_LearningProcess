@@ -22,7 +22,7 @@ diabetes_raw.frame.head(10) %% 查看原始数据集前10行 %%
 ```
 #### 模型调用
 ```
-%%  %%
+%% yi %%
 from sklearn.linear_model
 
 ```
