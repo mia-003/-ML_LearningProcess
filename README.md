@@ -20,7 +20,7 @@ X, y=load_diabetes(return_X_y=True)
 import pandas as pd
 
 diabetes_raw=load_diavetes(as_frame=True %% X为DataFrame格式 %%, scaled=False %% 不进行标准化处理 %%) 
-diabetes_raw.frame.head(10) %% 查看原始数据集前10行,.head()是由pandas的DataFrame提供的方法;否则输出numpy数组 %%
+diabetes_raw.frame.head(10) %% 查看原始数据集前10行,.head()是由pandas的DataFrame提供的方法;否则输出numpy数组形式 %%
 ```
 #### 划分训练集和测试集
 ```
