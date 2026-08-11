@@ -68,7 +68,7 @@ ax[0].plot(
     model.predict(X_train), %% 纵坐标 %%
     linewidth=3,
     color="tab:orange",
-    label="Model predictions",)
+    label="Model predictions")
     
 %% ax[1]为第二张图，展示测试集 %%
 ax[1].scatter(X_test, y_test, label="Test data points")
