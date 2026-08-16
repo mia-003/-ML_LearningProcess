@@ -50,19 +50,10 @@ y_train = y_train.to_numpy()
 
 model = LinearRegression().fit(X_train, y_train)
 
-# 分别给训练集和测试集排序
-
-  
-
-# test_order = np.argsort(X_test)
-
+# 分别给训练集和
 pred_y_train = model.predict(X_train)
 
-
-  
-
 import matplotlib.pyplot as plt
-
 plt.scatter(X_train, y_train, color="black", label="Train")
 plt.plot(X_train, pred_y_train, color="pink", linewidth=2)
 plt.xlabel("Features")
