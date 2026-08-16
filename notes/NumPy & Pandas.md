@@ -9,7 +9,7 @@
 | matplot画图<br>`plt.scatter(X_train.to_numpy()[:,0], y_train.to_numpy()[:,0]`                  | 画图（更适合一维Series）`plt.scatter(X.iloc[:,0],y.iloc[:,0])`                                                                                                     |
 ==pred_y=model.fit(X_test) 返回Numpy数组==
 model = LinearRegression().fit(X_train, y_train) 必须输入二维
-.reshape()：维度转换 eg.X.reshape(6,1) 将
+.reshape()：维度转换 eg.X.reshape(6,1) 将X转换为6行1列的er wei
 转换方法：
 `X_array = X.to_numpy()`
 `X_df = pd.DataFrame(`
