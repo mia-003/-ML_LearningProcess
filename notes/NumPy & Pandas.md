@@ -54,7 +54,7 @@ plt.show()
 ``
 
 ```
-%% 测试集 用DataFrame %%
+%% 用DataFrame %%
 
 import matplotlib.pyplot as plt
 plt.scatter(X_test.iloc[test_order, 0], y_test.iloc[test_order, 0], color="blue", label="Test")
