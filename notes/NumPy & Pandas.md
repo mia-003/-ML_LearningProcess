@@ -69,12 +69,8 @@ train_order = np.argsort(X_train.iloc[:, 0].to_numpy()) # 由于要使用np的�
 plt.scatter(X_train.iloc[:,0], y_train, color="blue", label="Train") # 由于X是二维df所以要有行列坐标定位，y是一维
 plt.plot(X_train.iloc[train_order,0], pred_y_train[train_order], color="green", linewidth=2)
 plt.xlabel("Features")
-
 plt.ylabel("Targets")
-
 plt.title("Linear Regression: Actual vs Predicted")
-
 plt.legend()
-
 plt.show()
 ```
