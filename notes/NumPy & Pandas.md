@@ -38,15 +38,8 @@ print(y.head(10))
 
 X_train, X_test, y_train, y_test = train_test_split(X.iloc[:, 0], y.iloc[:, 0], test_size=0.3, random_state=42)
 X_train = X_train.to_numpy().reshape(-1, 1)
-
-# X_test = X_test.to_numpy().reshape(-1, 1)
-
 y_train = y_train.to_numpy()
-
-# y_test = y_test.to_numpy()
-
 # 在查看数据集时可知X和y分别有三个变量，共六个。所以取变量时需要限定。
-
 model = LinearRegression().fit(X_train, y_train)
 pred_y_train = model.predict(X_train)
 
