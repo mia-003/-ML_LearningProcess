@@ -71,16 +71,14 @@ plt.scatter(X_train, y_train, color="black", label="Train")
 plt.plot(X_train, pred_y_train, color="pink", linewidth=2)
 
 # plt.plot(X_test.iloc[test_order, 0], pred_y_test.iloc[test_order, 0], color="green", linewidth=2)
-
 plt.xlabel("Features")
-
 plt.ylabel("Targets")
-
 plt.title("Linear Regression: Actual vs Predicted")
-
 plt.legend()
-
 plt.show()
 ```
 ``
 
+```
+
+```
