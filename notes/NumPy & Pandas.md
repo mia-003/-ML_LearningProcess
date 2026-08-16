@@ -27,4 +27,4 @@ eg. 分别用DataFrame和NumPy处理训练集和测试集
 ```
 
 ```
-`import pandas as pd`
+``
