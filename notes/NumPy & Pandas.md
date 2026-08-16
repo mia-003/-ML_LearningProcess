@@ -35,7 +35,28 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
+X, y = load_linnerud(
+return_X_y=True)
+X=X[:,[0]]
+y=y[:,0]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+model = LinearRegression().fit(X_train, y_train)
+pred_y_train = model.predict(X_train)
+train_order = np.argsort(X_train[:, 0])
 
+plt.scatter(X_train, y_train, color="blue", label="Train")
+
+plt.plot(X_train[train_order], pred_y_train[train_order], color="green", linewidth=2)
+
+plt.xlabel("Features")
+
+plt.ylabel("Targets")
+
+plt.title("Linear Regression: Actual vs Predicted")
+
+plt.legend()
+
+plt.show()
 ```
 ``
 
