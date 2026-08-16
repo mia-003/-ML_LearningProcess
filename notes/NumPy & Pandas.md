@@ -25,6 +25,74 @@ NumPy：预测值、系数、评估计算
 
 eg. 分别用DataFrame和NumPy处理训练集和测试集
 ```
+from sklearn.datasets import load_linnerud
 
+import numpy as np
+import pandas as pd
+# 解析特征值和目标值
+
+X, y = load_linnerud(
+
+return_X_y=True,
+
+as_frame=True)
+
+print(X.head(10))
+
+print(y.head(10))
+
+  
+
+from sklearn.linear_model import LinearRegression
+
+from sklearn.model_selection import train_test_split
+
+  
+
+X_train, X_test, y_train, y_test = train_test_split(X.iloc[:, 0], y.iloc[:, 0], test_size=0.3, random_state=42)
+
+X_train = X_train.to_numpy().reshape(-1, 1)
+
+# X_test = X_test.to_numpy().reshape(-1, 1)
+
+y_train = y_train.to_numpy()
+
+# y_test = y_test.to_numpy()
+
+# 在查看数据集时可知X和y分别有三个变量，共六个。所以取变量时需要限定。
+
+model = LinearRegression().fit(X_train, y_train)
+
+# 分别给训练集和测试集排序
+
+  
+
+# test_order = np.argsort(X_test)
+
+pred_y_train = model.predict(X_train)
+
+# pred_y_test = model.predict(X_test)
+
+  
+
+import matplotlib.pyplot as plt
+
+plt.scatter(X_train, y_train, color="black", label="Train")
+
+# plt.scatter(X_test.iloc[test_order, 0], y_test.iloc[test_order, 0], color="blue", label="Test")
+
+plt.plot(X_train, pred_y_train, color="pink", linewidth=2)
+
+# plt.plot(X_test.iloc[test_order, 0], pred_y_test.iloc[test_order, 0], color="green", linewidth=2)
+
+plt.xlabel("Features")
+
+plt.ylabel("Targets")
+
+plt.title("Linear Regression: Actual vs Predicted")
+
+plt.legend()
+
+plt.show()
 ```
 ``
