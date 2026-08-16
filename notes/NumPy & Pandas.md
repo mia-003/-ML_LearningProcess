@@ -55,6 +55,7 @@ plt.show()
 
 ```
 %% 测试集 用DataFrame %%
+
 import matplotlib.pyplot as plt
 plt.scatter(X_test.iloc[test_order, 0], y_test.iloc[test_order, 0], color="blue", label="Test")
 plt.plot(X_test.iloc[test_order, 0], pred_y_test.iloc[test_order, 0], color="green", linewidth=2)
