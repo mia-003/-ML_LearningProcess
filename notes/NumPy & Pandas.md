@@ -28,30 +28,14 @@ NumPy：预测值、系数、评估计算
 eg. 分别用DataFrame和NumPy处理训练集
 ```
 %% 用Numpy %%
+import numpy as np
+import pandas as pd
 from sklearn.datasets import load_linnerud
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-import numpy as np
-import pandas as pd
-# 解析特征值和目标值
-X, y = load_linnerud(return_X_y=True,as_frame=True) %% df格式 %%
-print(X.head(10))
-print(y.head(10))
-X_train, X_test, y_train, y_test = train_test_split(X.iloc[:, 0], y.iloc[:, 0], test_size=0.3, random_state=42)
-X_train = X_train.to_numpy().reshape(-1, 1)
-y_train = y_train.to_numpy()
-# 在查看数据集时可知X和y分别有三个变量，共六个。所以取变量时需要限定。
-model = LinearRegression().fit(X_train, y_train)
-pred_y_train = model.predict(X_train)
-
 import matplotlib.pyplot as plt
-plt.scatter(X_train, y_train, color="black", label="Train")
-plt.plot(X_train, pred_y_train, color="pink", linewidth=2)
-plt.xlabel("Features")
-plt.ylabel("Targets")
-plt.title("Linear Regression: Actual vs Predicted")
-plt.legend()
-plt.show()
+
+
 ```
 ``
 
