@@ -58,27 +58,16 @@ plt.show()
 %% 用DataFrame %%
 
 X, y = load_linnerud(
-
 return_X_y=True,
-
 as_frame=True)
-
 X = X.iloc[:, [0]] # DataFrame选择第0列
-
 y = y.iloc[:, 0] # Series
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
 model = LinearRegression().fit(X_train, y_train)
-
 pred_y_train = model.predict(X_train)
-
 train_order = np.argsort(X_train.iloc[:, 0].to_numpy()) # 由于要使用np的排序方法argsort()所以要to_numpy()转成可以排序的array形式
-
 plt.scatter(X_train.iloc[:,0], y_train, color="blue", label="Train") # 由于X是二维df所以要有行列坐标定位，y是一维
-
 plt.plot(X_train.iloc[train_order,0], pred_y_train[train_order], color="green", linewidth=2)
-
 plt.xlabel("Features")
 
 plt.ylabel("Targets")
