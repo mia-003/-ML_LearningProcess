@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 
 X, y = load_linnerud(
 return_X_y=True)
-X=X[:,[0]] %% 取所有行、第一列，shi qi wei %%
+X=X[:,[0]] %% 取所有行、第一列，使其为二维数组 %%
 y=y[:,0]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 model = LinearRegression().fit(X_train, y_train)
