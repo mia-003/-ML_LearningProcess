@@ -23,4 +23,4 @@ sklearn：训练模型
    ↓
 NumPy：预测值、系数、评估计算
 
-eg. 分别用DataFrame和NumPy
+eg. 分别用DataFrame和NumPy处理
