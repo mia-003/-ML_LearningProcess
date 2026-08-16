@@ -24,8 +24,8 @@ sklearn：训练模型
 NumPy：预测值、系数、评估计算
 
 eg. 分别用DataFrame和NumPy处理训练集和测试集
-`from sklearn.datasets import load_linnerud
+`from sklearn.datasets import load_linnerud`
 
-import numpy as np
+`import numpy as np`
 
-import pandas as pd`
+`import pandas as pd`
