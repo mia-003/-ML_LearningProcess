@@ -1,0 +1,12 @@
+{
+  "source": "/Users/zhouxiangyue/Documents/Obsidian Vault/GitHub_ML项目学习.md",
+  "files": [
+    "README.md",
+    "notes/NumPy & Pandas.md"
+  ],
+  "excluded_directories": [
+    "daily notes",
+    "private",
+    "templates"
+  ]
+}

@@ -4,10 +4,10 @@ tags:
   - ML
 date: 2026-07-27
 ---
-GitHub项目学习[[# https://github.com/DataTalksClub/machine-learning-zoomcamp]]
+GitHub项目学习[https://github.com/DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
 ### NumPy(Array) & Pandas(DataFrame)
-- 查看[[NumPy & Pandas]]
+- 查看[NumPy & Pandas](notes/NumPy%20%26%20Pandas.md)
 ### sklearn库 
 "Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities."
 ```
