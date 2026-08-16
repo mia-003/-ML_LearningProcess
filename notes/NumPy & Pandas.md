@@ -8,7 +8,7 @@
 | 不支持按列名选择                                                                                     | 带索引、列名，支持按列名选择<br>eg. 当特征向量有多维时，`X[["BMI"]]`<br>当特征向量一维时，`X["BMI"]`                                                                                       |
 | matplot画图<br>`plt.scatter(X_train.to_numpy()[:,0], y_train.to_numpy()[:,0]`                  | 画图（更适合一维Series）`plt.scatter(X.iloc[:,0],y.iloc[:,0])`                                                                                                     |
 ==pred_y=model.fit(X_test) 返回Numpy数组==
-model = LinearRegression().fit(X_train, y_train) 必须输入二维，若为Array
+model = LinearRegression().fit(X_train, y_train) 必须输入二维，若为array
 转换方法：
 `X_array = X.to_numpy()`
 `X_df = pd.DataFrame(`
