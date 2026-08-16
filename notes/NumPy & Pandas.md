@@ -33,9 +33,6 @@ import pandas as pd
 X, y = load_linnerud(return_X_y=True,as_frame=True)
 print(X.head(10))
 print(y.head(10))
-
-  
-
 from sklearn.linear_model import LinearRegression
 
 from sklearn.model_selection import train_test_split
