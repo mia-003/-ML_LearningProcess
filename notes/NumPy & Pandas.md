@@ -25,15 +25,13 @@ NumPy：预测值、系数、评估计算
 
 eg. 分别用DataFrame和NumPy处理训练集和测试集
 ```
-%%  %%
+%% 训练集 %%
 from sklearn.datasets import load_linnerud
 import numpy as np
 import pandas as pd
 # 解析特征值和目标值
 X, y = load_linnerud(return_X_y=True,as_frame=True)
-
 print(X.head(10))
-
 print(y.head(10))
 
   
