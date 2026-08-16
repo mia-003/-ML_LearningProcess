@@ -12,7 +12,7 @@ model = LinearRegression().fit(X_train, y_train) 必须输入二维
 np.reshape()：Numpy的维度转换方法 eg.X.reshape(6,1) 将数组X转换为6行1列的二维数组；(-1, 1)表示“根据数据集的行数”
 转换方法：
 `X_array = X.to_numpy()X_df = pd.DataFrame(`X_array,columns=["Weight", "Height", "BMI"])`
-    
+
 #### 机器学习流程中：
 CSV/数据集
    ↓
