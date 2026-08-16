@@ -32,7 +32,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
 # 解析特征值和目标值
-X, y = load_linnerud(return_X_y=True,as_frame=True)%%  %%
+X, y = load_linnerud(return_X_y=True,as_frame=True) %% df格式 %%
 print(X.head(10))
 print(y.head(10))
 
