@@ -25,7 +25,7 @@ NumPy：预测值、系数、评估计算
 
 eg. 分别用DataFrame和NumPy处理训练集和测试集
 ```
-%% 训练集 用numpy %%
+%% 训练集 用Numpy %%
 from sklearn.datasets import load_linnerud
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -54,7 +54,7 @@ plt.show()
 ``
 
 ```
-%% 测试集 用Data F %%
+%% 测试集 用DataFrame %%
 plt.scatter(X_test.iloc[test_order, 0], y_test.iloc[test_order, 0], color="blue", label="Test")
 plt.plot(X_test.iloc[test_order, 0], pred_y_test.iloc[test_order, 0], color="green", linewidth=2)
 plt.xlabel("Features")
