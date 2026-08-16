@@ -35,7 +35,6 @@ import pandas as pd
 X, y = load_linnerud(return_X_y=True,as_frame=True) %% df格式 %%
 print(X.head(10))
 print(y.head(10))
-
 X_train, X_test, y_train, y_test = train_test_split(X.iloc[:, 0], y.iloc[:, 0], test_size=0.3, random_state=42)
 X_train = X_train.to_numpy().reshape(-1, 1)
 y_train = y_train.to_numpy()
