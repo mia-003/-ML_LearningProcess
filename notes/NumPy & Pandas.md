@@ -27,18 +27,14 @@ eg. 分别用DataFrame和NumPy处理训练集和测试集
 ```
 %% 训练集 %%
 from sklearn.datasets import load_linnerud
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
 # 解析特征值和目标值
 X, y = load_linnerud(return_X_y=True,as_frame=True)
 print(X.head(10))
 print(y.head(10))
-from sklearn.linear_model import LinearRegression
-
-from sklearn.model_selection import train_test_split
-
-  
-
 X_train, X_test, y_train, y_test = train_test_split(X.iloc[:, 0], y.iloc[:, 0], test_size=0.3, random_state=42)
 
 X_train = X_train.to_numpy().reshape(-1, 1)
