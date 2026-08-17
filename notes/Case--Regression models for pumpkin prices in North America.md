@@ -9,3 +9,8 @@ pumpkins = pd.read_csv(path)
 pumpkins.head()
 ```
 
+```
+%% 预处理：删除kong li %%
+pumpkins = pumpkins.dropna(axis=1, how="all")
+print(pumpkins.shape)
+```
