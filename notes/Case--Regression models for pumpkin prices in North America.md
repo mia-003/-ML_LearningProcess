@@ -12,7 +12,7 @@ print(pumpkins.shape)
 
 ```
 %% 预处理：删除空列和不需要的列 %%
-# dropna()阿汉
+# dropna()删除空行或空列
 pumpkins = pumpkins.dropna(axis=1, how="all")
 pumpkins = pumpkins.drop(columns=["Type"])
 ```
