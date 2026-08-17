@@ -14,5 +14,5 @@ print(pumpkins.shape)
 %% 预处理：删除空列和不需要的列 %%
 # dropna()删除空行(axis=0)或空列(axis=1)，how="all"整行/列都为空时，"any"任一格为空时
 pumpkins = pumpkins.dropna(axis=1, how="all")
-pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed 25"])
+pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed: 25"])
 ```
