@@ -12,5 +12,4 @@ pumpkins.head()
 ```
 %% 预处理：删除空列和不需要的列 %%
 pumpkins = pumpkins.dropna(axis=1, how="all")
-print(pumpkins.shape)
 ```
