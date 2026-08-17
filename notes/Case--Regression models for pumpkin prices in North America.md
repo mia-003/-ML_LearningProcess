@@ -17,3 +17,5 @@ pumpkins = pumpkins.dropna(axis=1, how="all")
 # 列名找不到时忽略，不报错
 pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed: 25"], errors="ignore")
 ```
+
+Q：
