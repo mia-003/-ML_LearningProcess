@@ -18,4 +18,4 @@ pumpkins = pumpkins.dropna(axis=1, how="all")
 pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed: 25"], errors="ignore")
 ```
 
-Q：
+Q：预测
