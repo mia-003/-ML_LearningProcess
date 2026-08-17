@@ -19,3 +19,4 @@ pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed: 25"], error
 ```
 
 Q：预测某个月卖南瓜的价格
+所需列：
