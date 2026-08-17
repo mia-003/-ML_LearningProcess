@@ -7,9 +7,11 @@ import pandas as pd
 path = "/Users/zhouxiangyue/Documents/ML/ML_DataSet/regression_practice/pumpkin_market/US-pumpkins.csv"
 pumpkins = pd.read_csv(path)
 pumpkins.head()
+print(pumpkins.shape)
 ```
 
 ```
 %% 预处理：删除空列和不需要的列 %%
 pumpkins = pumpkins.dropna(axis=1, how="all")
+pumpkins
 ```
