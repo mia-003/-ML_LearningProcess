@@ -19,6 +19,6 @@ pumpkins = pumpkins.drop(columns=["Type","Origin District","Unnamed: 25"], error
 ```
 
 Q：预测某个月卖南瓜的价格
-所需列：Date、Low Price、High Price、Pack
+所需列：Date、Low Price、High Price、Package
 Step1：处理日期（转日期格式、抽出月份）
 Step2：
