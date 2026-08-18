@@ -29,7 +29,8 @@ avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
 - Step3：统一单位，取平均价格
 ```
 # Package列中有各种包装类型（each/per bin/bushel），需要统一
-%% 查看所有zhi %%
+%% 查看所有值 %%
+print(pumpkins.)
 %% 只取Bushel单位的行 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True)] # 忽略大小写
 
