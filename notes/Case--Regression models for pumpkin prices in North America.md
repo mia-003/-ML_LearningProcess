@@ -49,7 +49,7 @@ import matplotlib.pyplot as plt
 plt.scatter(month, avg_price)
 avg_price.groupby(month).mean().plot(kind='bar') # 根据month分组取mean值
 plt.show()
-# 或者使用Seaborn库：
+# 或者使用Seaborn库，把两个独立变量chuan：
 import seaborn as sns
 sns.catplot(x=month, y=price, kind="bar")
 ```
