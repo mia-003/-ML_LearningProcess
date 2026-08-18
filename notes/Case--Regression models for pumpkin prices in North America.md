@@ -58,3 +58,6 @@ sns.catplot(x=month, y=price, kind="bar")
 `print(pumpkins['month'].corr(pumpkins['avg_price']))`
 
 找另外一个变量Variety，假设和Variety有相关性。
+```
+%%  %%
+```
