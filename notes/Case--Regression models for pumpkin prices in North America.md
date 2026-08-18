@@ -41,4 +41,3 @@ pumpkins.loc[pumpkins['Package'].str.contains('1/2'), 'Price'] = price/(1/2)
 ```
 
 - Step4：绘制每月平均价格散点图
-- 
