@@ -23,7 +23,7 @@ Q：预测某个月卖南瓜的价格
 Step1：选定所需列
 ```
 month=pd.DatetimeFrameIndex(pumpkins['Date']).month
-avg_price=
+avg_price=pumpkins([])
 ```
 Step2：处理日期（转日期格式、抽出月份）
 Step3：统一单位，取平均价格
