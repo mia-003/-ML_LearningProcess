@@ -40,4 +40,4 @@ pumpkins.loc[pumpkins['Package'].str.contains('1 1/9'), 'Price'] = price/(1 + 1/
 pumpkins.loc[pumpkins['Package'].str.contains('1/2'), 'Price'] = price/(1/2)
 ```
 
-- Ste
+- Step4：绘制mei
