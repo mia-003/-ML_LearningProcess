@@ -60,5 +60,7 @@ sns.catplot(x=month, y=price, kind="bar")
 找另外一个变量Variety，假设和Variety有相关性。
 ```
 %% 在价格散点图上区分不同Variety的颜色，初步观察 %%
+ax = None
+colors = ["red", "blue", "green", "yellow"]
 
 ```
