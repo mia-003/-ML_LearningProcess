@@ -22,7 +22,8 @@ Q：预测某个月卖南瓜的价格
 所需列：Date、Low Price、High Price、Package
 Step1：选定所需列
 ```
-month=p d
+month=pd.DatetimeFrameIndex(pumpkins['Date']).month
+price=
 ```
 Step2：处理日期（转日期格式、抽出月份）
 Step3：统一单位，取平均价格
