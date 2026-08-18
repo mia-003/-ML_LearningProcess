@@ -31,7 +31,7 @@ avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
 # Package列中有各种包装类型（each/per bin/bushel），需要统一
 %% 查看所有值 %%
 print(pumpkins['Package'].unique())
-print(pumpkins['Package'].unique())
+
 %% 只取Bushel单位的行 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True)] # 忽略大小写
 
