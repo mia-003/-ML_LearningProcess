@@ -62,5 +62,5 @@ sns.catplot(x=month, y=price, kind="bar")
 %% 在价格散点图上区分不同Variety的颜色，初步观察 %%
 ax = None
 colors = ["red", "blue", "green", "yellow"]
-
+%% 遍历每个颜色 %%
 ```
