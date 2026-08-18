@@ -22,7 +22,7 @@ Q：预测某个月卖南瓜的价格
 所需列：Date、Low Price、High Price、Package
 Step1：选定所需列
 Step2：处理日期（转日期格式、抽出月份）
-Step3：统一单位取平均价格
+Step3：统一单位，取平均价格
 ```
 %% 单位不同 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True, regex=True)]
