@@ -39,3 +39,5 @@ pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True)] # å¿½ç•
 pumpkins.loc[pumpkins['Package'].str.contains('1 1/9'), 'Price'] = price/(1 + 1/9)
 pumpkins.loc[pumpkins['Package'].str.contains('1/2'), 'Price'] = price/(1/2)
 ```
+
+- Ste
