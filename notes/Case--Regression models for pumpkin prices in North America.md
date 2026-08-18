@@ -25,7 +25,7 @@ Step1：选定所需列
 month=pd.DatetimeFrameIndex(pumpkins['Date']).month
 avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
 ```
-Step2：处理日期（转日期格式、抽出月份）
+- Step2：处理日期（转日期格式、抽出月份）
 Step3：统一单位，取平均价格
 
 ```
