@@ -26,6 +26,7 @@ Q：预测某个月卖南瓜的价格
 %% 创建独立变量 %%
 month=pd.DatetimeFrameIndex(pumpkins['Date']).month
 avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
+# ye ke yi
 ```
 - Step3：统一单位，取平均价格
 ```
