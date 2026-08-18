@@ -23,3 +23,4 @@ Q：预测某个月卖南瓜的价格
 Step1：选定所需列
 Step2：处理日期（转日期格式、抽出月份）
 Step3：取平均价格
+pumpkins = pumpkins[pumpkins['Package'].str.contains('bushel', case=True, regex=True)]
