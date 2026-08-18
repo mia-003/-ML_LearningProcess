@@ -22,10 +22,14 @@ Q：预测某个月卖南瓜的价格
 所需列：Date、Low Price、High Price、Package
 - Step1：选定所需列
 - Step2：处理日期（转日期格式、抽出月份）
+```
+month=pd.DatetimeFrameIndex(pumpkins['Date']).month
+avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
+```
 - Step3：统一单位，取平均价格
-
 ```
 # Package列中有各种包装类型（each/per bin/bushel），需要统一
+
 %% 只取Bushel单位的行 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True)] # 忽略大小写
 
