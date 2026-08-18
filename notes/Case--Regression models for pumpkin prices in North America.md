@@ -51,5 +51,5 @@ avg_price.groupby(month).mean().plot(kind='bar') # 根据month分组取mean值
 plt.show()
 # 或者使用Seaborn库：
 import seaborn as sns
-sns.catplot(x="month", y="price", data=pumpkins, kind="bar")
+sns.catplot(x=month, y=price, data=pumpkins, kind="bar")
 ```
