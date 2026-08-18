@@ -57,4 +57,4 @@ sns.catplot(x=month, y=price, kind="bar")
 查看相关系数。当月份作为变量时，相关系数为-0.034. 
 `print(pumpkins['month'].corr(pumpkins['avg_price']))`
 
-找另外一个变量Variety，假设和Varietyyou xiang guan x
+找另外一个变量Variety，假设和Variety有相关性。
