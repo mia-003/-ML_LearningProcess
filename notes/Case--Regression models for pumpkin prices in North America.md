@@ -47,5 +47,6 @@ pumpkins.loc[pumpkins['Package'].str.contains('1/2'), 'Price'] = price/(1/2)
 import matplotlib.pyplot as plt
 
 plt.scatter(month, avg_price)
+avg_price.groupby(month).mean().plot(kind='bar') #
 plt.show()
 ```
