@@ -54,4 +54,4 @@ import seaborn as sns
 sns.catplot(x=month, y=price, kind="bar")
 ```
 
-当
+当月份作为变量时，
