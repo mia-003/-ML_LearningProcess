@@ -25,7 +25,7 @@ Step2：处理日期（转日期格式、抽出月份）
 Step3：统一单位，取平均价格
 
 ```
-# Package列中有Each/per bin
+# Package列中有各种包装类型*each/per bin
 %% 只取Bushel单位的行 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True, regex=True)]
 ```
