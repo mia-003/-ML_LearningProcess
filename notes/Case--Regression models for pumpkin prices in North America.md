@@ -63,5 +63,6 @@ sns.catplot(x=month, y=price, kind="bar")
 ax = None
 colors = ["red", "blue", "green", "yellow"]
 %% 遍历每个颜色、每个Variety %%
-for i, var in enumerate(pumpkins["Variety"])
+for i, var in enumerate(pumpkins["Variety"].unique()):
+	
 ```
