@@ -54,5 +54,5 @@ import seaborn as sns
 sns.catplot(x=month, y=price, kind="bar")
 ```
 
-查看当月份作为变量时，
+查看相关系数。当月份作为变量时，
 `print(pumpkins['month'].corr(pumpkins['avg_price']))`
