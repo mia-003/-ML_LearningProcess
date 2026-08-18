@@ -23,7 +23,7 @@ Q：预测某个月卖南瓜的价格
 - Step1：选定所需列
 - Step2：处理日期（转日期格式、抽出月份）
 ```
-%% chuang jian %%
+%% 创建独立变量 %%
 month=pd.DatetimeFrameIndex(pumpkins['Date']).month
 avg_price=(pumpkins['Low Price']+pumpkins['High Price'])/2
 ```
