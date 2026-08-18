@@ -28,5 +28,5 @@ Step3：统一单位，取平均价格
 # Package列中有各种包装类型（each/per bin/bushel），需要统一
 %% 只取Bushel单位的行 %%
 pumpkins=pumpkins[pumpkins['Package'].str.contains('bushel', case=True, regex=True)] # 忽略大小写、忽略
-%%  %%
+%% 计算每个bushel的平均价格 %%
 ```
