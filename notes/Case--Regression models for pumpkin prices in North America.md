@@ -55,4 +55,4 @@ sns.catplot(x=month, y=price, kind="bar")
 ```
 
 当月份作为变量时，
-`print()`
+`print(pumpkins['month'].corr(pumpkins['avg_price']))`
