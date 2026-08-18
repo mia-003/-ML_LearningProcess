@@ -40,7 +40,7 @@ pumpkins.loc[pumpkins['Package'].str.contains('1 1/9'), 'Price'] = price/(1 + 1/
 pumpkins.loc[pumpkins['Package'].str.contains('1/2'), 'Price'] = price/(1/2)
 ```
 
-- Step4：绘制所有销售价格散点图
+- Step4：绘制所有销售价格散点图、ping jun jia geby month柱状图
 ```
 import matplotlib.pyplot as plt
 
