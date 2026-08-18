@@ -65,5 +65,5 @@ colors = ["red", "blue", "green", "yellow"]
 %% 遍历每个颜色、每个Variety %%
 for i, var in enumerate(pumpkins["Variety"].unique()):
     variety=pumpkins[pumpkins["Variety"]==var]
-    ax = variety.plot.scatter(x="month", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个zhou
+    ax = variety.plot.scatter(x="month", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个轴
 ```
