@@ -59,5 +59,5 @@ sns.catplot(x=month, y=price, kind="bar")
 
 找另外一个变量Variety，假设和Variety有相关性。
 ```
-%% 绘制所有Variety的jia ge sa %%
+%% 绘制所有Variety的价格散点图 %%
 ```
