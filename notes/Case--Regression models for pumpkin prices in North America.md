@@ -174,5 +174,6 @@ label_encoder = LabelEncoder()
 encoded_label = label_encoder.fit_transform(pumpkins['Color'])
 
 %% 生成编码后的完整数据集 %%
+# 把encoded
 encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 ```
