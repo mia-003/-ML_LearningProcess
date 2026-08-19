@@ -107,4 +107,6 @@ pred_y=pipeline.predict(X_test)
 
 非数值型变量特征Categorical Features
 - One-hot encoding：把category转换为1/0编码
-
+```
+pd.get_dummies(new_pumpkins["Variety"])
+```
