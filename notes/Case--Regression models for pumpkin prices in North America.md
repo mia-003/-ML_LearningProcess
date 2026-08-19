@@ -80,4 +80,5 @@ X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_s
 line_reg_model=LinearRegression()
 line_reg_model.fit(X_train, y_train)
 pred_y=line_reg_model.predict(X_test)
+%% ping g %%
 ```
