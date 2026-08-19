@@ -115,4 +115,4 @@ X = pd.get_dummies(pumpkins['Variety'])
 	.join(pd.get_dummies(pumpkins['City Name'])) # 分类变量则get_dummies()
 	.join(pumpkins['day_of_year']) # 数值变量则直接join
 ```
-结果为：MAE=1.79；R2=0.93
+结果为：MAE=1.79；R2=0.93，xian zhu
