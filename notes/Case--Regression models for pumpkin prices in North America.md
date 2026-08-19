@@ -200,10 +200,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 from sklearn.metrics import f1_score, classification_report 
 from sklearn.linear_model import LogisticRegression
-
 model = LogisticRegression()
 model.fit(X_train, y_train)
-predictions = model.predict(X_test)
+pred_y= model.predict(X_test)
 
 print(classification_report(y_test, predictions))
 print('Predicted labels: ', predictions)
