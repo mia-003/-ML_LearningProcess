@@ -114,4 +114,5 @@ y = pumpkins['Price']
 X = pd.get_dummies(pumpkins['Variety'])
 	.join(pd.get_dummies(pumpkins['City Name'])) # 分类变量则get_dummies()
 	.join(pumpkins['Month']) # 数值变量则直接join
+X=pumpkins[["day_of_year"]].join(pd.get_dummies(pumpkins["Variety"])).join(pd.get_dummies(pumpkins["City Name"]))
 ```
