@@ -206,5 +206,5 @@ pred_y= model.predict(X_test)
 
 print(classification_report(y_test, pred_y))
 print('Predicted labels: ', pred_y)
-print('F1-score: ', f1_score(y_test, pred_y_))
+print('F1-score: ', f1_score(y_test, pred_y))
 ```
