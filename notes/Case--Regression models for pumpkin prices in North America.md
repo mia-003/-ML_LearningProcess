@@ -74,4 +74,4 @@ for i, var in enumerate(pumpkins["Variety"].unique()):
     ax = variety.plot.scatter(x="day_of_year", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个轴
 ```
 
-发现不同Variety的价格相差更大。取其中Variety=='PIE TYPE'
+发现不同Variety的价格相差更大。取其中Variety=='PIE TYPE' 进行
