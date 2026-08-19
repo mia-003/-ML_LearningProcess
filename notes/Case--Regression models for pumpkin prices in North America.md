@@ -159,6 +159,6 @@ CT = ColumnTransformer(transformers=[
         ('cat', categorical_encoder, categorical_features)
         ])
     
-    ct.set_output(transform='pandas')
-    encoded_features = ct.fit_transform(pumpkins)
+CT.set_output(transform='pandas')
+encoded_features = ct.fit_transform(pumpkins)
 ```
