@@ -147,4 +147,5 @@ ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
 encoded_size = ordinal_encoder.fit_transform(pumpkins[['Item Size']])
 
 %% 处理没有自然顺序的类别非数值变量 %%
+
 ```
