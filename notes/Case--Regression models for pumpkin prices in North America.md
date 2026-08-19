@@ -106,7 +106,7 @@ pred_y=pipeline.predict(X_test)
 结果为：MAE=8.86；R2=0.036
 略有提升，但仍不显著。
 
-非数值型变量特征Categorical Features
+非数值型变量特征Categorical Features参与多项式回归模型
 - One-hot encoding：把category转换为1/0编码
 ```
 X = pd.get_dummies(pumpkins['Variety'])
@@ -118,3 +118,4 @@ X = pd.get_dummies(pumpkins['Variety'])
 ```
 结果为：MAE=1.79；R2=0.93，显著提升。
 
+## 逻辑回归
