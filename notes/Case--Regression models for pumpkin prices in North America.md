@@ -146,5 +146,5 @@ ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
 # 进行编码(必须输入二维)
 encoded_size = ordinal_encoder.fit_transform(pumpkins[['Item Size']])
 
-%% 处理类别非数值变量没有zi ran %%
+%% 处理没有自然顺序的类别非数值变量 %%
 ```
