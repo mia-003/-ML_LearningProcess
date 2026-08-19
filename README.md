@@ -57,6 +57,7 @@ print(r2_score(y_test, y_pred))
 %% 分类用F1和混淆矩阵指标评估模型效果 %%
 from sklearn.metrics import f1_score, classification_report
 print(classification_report(y_test, predictions))
+print('F1-score: ', f1_score(y_test, predictions))
 ```
 #### 绘制结果图 Plotting
 ```
