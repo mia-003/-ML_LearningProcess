@@ -181,6 +181,11 @@ encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 分别使用箱型图和蜂群图看分布
 ```
 pumpkins['Item Size'] = encoded_pumpkins['ord__Item Size']
-
-
+sns.catplot(
+        data=pumpkins,
+        x="Item Size", y="Color", row='Variety',
+        kind="box", orient="h",
+        sharex=False, margin_titles=True,
+        height=1.8, aspect=4, palette=palette,
+    )
 ```
