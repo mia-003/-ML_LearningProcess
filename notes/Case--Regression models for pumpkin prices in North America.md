@@ -73,4 +73,4 @@ for i, var in enumerate(pumpkins["Variety"].unique()):
     variety=pumpkins[pumpkins["Variety"]==var]
     ax = variety.plot.scatter(x="day_of_year", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个轴
 ```
-Pasted image 20260819115823.png
+408
