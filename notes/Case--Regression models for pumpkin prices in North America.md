@@ -160,5 +160,5 @@ CT = ColumnTransformer(transformers=[
         ])
     
 CT.set_output(transform='pandas')
-encoded_features = ct.fit_transform(pumpkins)
+encoded_features = CT.fit_transform(pumpkins)
 ```
