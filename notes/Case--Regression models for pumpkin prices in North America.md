@@ -148,5 +148,6 @@ encoded_size = ordinal_encoder.fit_transform(pumpkins[['Item Size']])
 
 %% 处理没有自然顺序的类别非数值变量 %%
 from sklearn.preprocessing import OneHotEncoder
-
+categorical_features = ['City Name', 'Package', 'Variety', 'Origin']
+categorical_encoder = OneHotEncoder(sparse_output=False)
 ```
