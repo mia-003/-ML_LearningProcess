@@ -144,7 +144,7 @@ item_size_categories=[['sml','med','med-lge','lge','xlge','jbo','exjbo']]
 # 待处理的列
 ordinal_features=['Item Size']
 # 创建编码器
-ordinal_encoder=OrdinalEncoder(categories=ite)
+ordinal_encoder=OrdinalEncoder(categories=item_size_categorie)
 # 进行编码
 
 ```
