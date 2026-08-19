@@ -135,7 +135,7 @@ sns.catplot(
 %% 编码有自然顺序的非数值变量 %%
 # 查看所有值
 print(pumpkins["Item Size"].unique())
-# 去除空行 inplace=True表示直接修改数据集
+# 去除空行。inplace=True表示直接修改数据集
 pumpkins = pumpkins.dropna(subset=["Item Size"], inplace=True) 
 from sklearn.preprocessing import OrdinalEncoder
 # 定义顺序
