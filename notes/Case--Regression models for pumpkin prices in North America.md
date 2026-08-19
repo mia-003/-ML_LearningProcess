@@ -130,4 +130,7 @@ sns.catplot(
     kind="count",)
 ```
 
-数据yu chu li
+数据预处理
+```
+%%  %%
+```
