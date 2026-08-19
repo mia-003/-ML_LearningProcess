@@ -205,6 +205,6 @@ model.fit(X_train, y_train)
 pred_y= model.predict(X_test)
 
 print(classification_report(y_test, pred_y))
-print('Predicted labels: ', predictions)
-print('F1-score: ', f1_score(y_test, predictions))
+print('Predicted labels: ', pred_y)
+print('F1-score: ', f1_score(y_test, pred_y_))
 ```
