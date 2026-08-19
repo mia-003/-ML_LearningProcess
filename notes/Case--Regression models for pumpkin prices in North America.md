@@ -204,7 +204,7 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 pred_y= model.predict(X_test)
 
-print(classification_report(y_test, predictions))
+print(classification_report(y_test, pred_y))
 print('Predicted labels: ', predictions)
 print('F1-score: ', f1_score(y_test, predictions))
 ```
