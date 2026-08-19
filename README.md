@@ -55,6 +55,7 @@ print(mean_squared_error(y_test, y_pred))
 print(r2_score(y_test, y_pred))
 
 %% 分类用F1和混淆矩阵指标评估模型效果 %%
+from sklearn.metrics import f1_score, classification_report
 
 ```
 #### 绘制结果图 Plotting
