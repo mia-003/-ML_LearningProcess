@@ -154,7 +154,7 @@ categorical_encoder = OneHotEncoder(sparse_output=False)
 
 %% 进行编码 %%
 from sklearn.compose import ColumnTransformer
-CTf = ColumnTransformer(transformers=[
+CT = ColumnTransformer(transformers=[
         ('ord', ordinal_encoder, ordinal_features),
         ('cat', categorical_encoder, categorical_features)
         ])
