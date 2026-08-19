@@ -126,6 +126,6 @@ pumpkins = pumpkins.loc[:, ["Origin", "Variety", "City Name", "Item Size", "Colo
 sns.catplot(
     data=pumpkins,
     y="Variety",
-    hue="Color",
+    hue="Color", # 图例
     kind="count",)
 ```
