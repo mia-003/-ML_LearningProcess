@@ -99,4 +99,5 @@ MAE说明平均预测价格和真实价格相差约$9，R2接近0说明模型几
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 pipeline = make_pipeline(PolynomialFeatures(2), LinearRegression())
+
 ```
