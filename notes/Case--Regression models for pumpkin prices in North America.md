@@ -127,6 +127,5 @@ sns.catplot(
     data=pumpkins,
     y="Variety",
     hue="Color",
-    kind="count",
-)
+    kind="count",)
 ```
