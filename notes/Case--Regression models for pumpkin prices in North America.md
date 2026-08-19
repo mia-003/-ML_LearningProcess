@@ -129,3 +129,5 @@ sns.catplot(
     hue="Color", # 图例
     kind="count",)
 ```
+
+数据yu chu li
