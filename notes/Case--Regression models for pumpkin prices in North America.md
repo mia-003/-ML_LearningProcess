@@ -96,5 +96,7 @@ MAE说明平均预测价格和真实价格相差约$9，R2接近0说明模型几
 
 ```
 %% 调用多项式模型 %%
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import make_pipeline
 
 ```
