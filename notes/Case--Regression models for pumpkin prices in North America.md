@@ -143,5 +143,5 @@ from sklearn.preprocessing import OrdinalEncoder
 item_size_categories=[['sml','med','med-lge','lge','xlge','jbo','exjbo']]
 # 待处理的列
 ordinal_features=['Item Size']
-
+# 创建bian
 ```
