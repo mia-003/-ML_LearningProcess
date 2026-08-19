@@ -178,4 +178,4 @@ encoded_label = label_encoder.fit_transform(pumpkins['Color'])
 encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 ```
 
-分别使用箱型图和
+分别使用箱型图和蜂群图看分布
