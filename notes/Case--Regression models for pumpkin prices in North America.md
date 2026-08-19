@@ -180,5 +180,7 @@ encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 
 分别使用箱型图和蜂群图看分布
 ```
+pumpkins['Item Size'] = encoded_pumpkins['ord__Item Size']
+
 
 ```
