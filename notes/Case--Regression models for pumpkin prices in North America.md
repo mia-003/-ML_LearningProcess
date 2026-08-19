@@ -150,4 +150,6 @@ encoded_size = ordinal_encoder.fit_transform(pumpkins[['Item Size']])
 from sklearn.preprocessing import OneHotEncoder
 categorical_features = ['City Name', 'Package', 'Variety', 'Origin']
 categorical_encoder = OneHotEncoder(sparse_output=False)
+
+%% 进行bian ma %%
 ```
