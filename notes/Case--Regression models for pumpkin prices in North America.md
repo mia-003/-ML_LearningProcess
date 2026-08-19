@@ -148,7 +148,9 @@ ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
 
 %% 处理没有自然顺序的类别非数值变量 %%
 from sklearn.preprocessing import OneHotEncoder
+# 
 categorical_features = ['City Name', 'Package', 'Variety', 'Origin']
+# 创建编码器
 categorical_encoder = OneHotEncoder(sparse_output=False)
 
 %% 进行编码 %%
