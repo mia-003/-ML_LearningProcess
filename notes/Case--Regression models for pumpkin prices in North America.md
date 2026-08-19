@@ -122,5 +122,6 @@ X = pd.get_dummies(pumpkins['Variety'])
 ```
 %% 选择所需列 %%
 pumpkins = pumpkins.loc[:, ["Origin", "Variety", "City Name", "Item Size", "Color", "Package"]]
-# 观察每个品种、每个颜色的分布。分组1:分组2:Color
+# 观察每个品种、每个颜色的分布。分组1:Variety；分组2:Color
+
 ```
