@@ -110,4 +110,5 @@ pred_y=pipeline.predict(X_test)
 ```
 X = pd.get_dummies(pumpkins['Variety'])
 y = pumpkins['Price']
+%% 或者组合多个te zheng %%
 ```
