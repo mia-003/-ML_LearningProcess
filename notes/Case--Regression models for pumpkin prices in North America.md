@@ -135,7 +135,7 @@ sns.catplot(
 %% 编码有自然顺序的非数值变量 %%
 # 查看所有值
 print(pumpkins["Item Size"].unique())
-# 去除kong hang
+# 去除空行
 from sklearn.preprocessing import OrdinalEncoder
 # 定义顺序
 item_size_categories=[["","","","",""]]
