@@ -121,5 +121,6 @@ X = pd.get_dummies(pumpkins['Variety'])
 ## 逻辑回归（用于预测分类）
 ```
 %% 选择所需列 %%
-
+pumpkins = pumpkins.loc[:, ["Origin", "Variety", "City Name", "Item Size", "Color", "Package"]]
+# 观察每种
 ```
