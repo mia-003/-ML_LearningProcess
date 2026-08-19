@@ -120,5 +120,6 @@ X = pd.get_dummies(pumpkins['Variety'])
 
 ## 逻辑回归（用于预测分类）
 ```
-%%  %%
+%% 选择所需列 %%
+
 ```
