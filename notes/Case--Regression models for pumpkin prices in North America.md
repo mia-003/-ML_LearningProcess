@@ -172,6 +172,6 @@ from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 encoded_label = label_encoder.fit_transform(pumpkins['Color'])
 
-%% 声称编码后的完整数据集 %%
+%% 生成编码后的完整数据集 %%
 encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 ```
