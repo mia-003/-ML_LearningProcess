@@ -87,7 +87,7 @@ plt.show()
 ### 回归 Regression 
 * 线性回归 Linear: y=a+bx
 * 逻辑回归 Logistic: y=1/(1+e^-(a+bx))
-* 多项式回归 Polynomial：duo ge bian l
+* 多项式回归 Polynomial：多个变量，解释非线性关系
 #### Case Study（预测北美南瓜价格）
 [Case--Regression models for pumpkin prices in North America](notes/Case--Regression%20models%20for%20pumpkin%20prices%20in%20North%20America.md)
 #### 回归常用的评估指标
