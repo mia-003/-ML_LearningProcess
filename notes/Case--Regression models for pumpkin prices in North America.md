@@ -101,5 +101,4 @@ from sklearn.pipeline import make_pipeline
 pipeline = make_pipeline(PolynomialFeatures(degree=2), LinearRegression()) # 最高输入二次项。假设2个feature则1,x1,x2,x1^2,x1x2,x2^2。
 pipeline.fit(X_train,y_train)
 pred_y=pipeline.predict(X_test)
-
 ```
