@@ -101,4 +101,5 @@ from sklearn.pipeline import make_pipeline
 pipeline = make_pipeline(PolynomialFeatures(2), LinearRegression())
 pipeline.fit(X_train,y_train)
 pred_y=pipeline.predict(X_test)
+
 ```
