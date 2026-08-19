@@ -140,5 +140,5 @@ pumpkins.dropna(subset=["Item Size"], inplace=True)
 
 from sklearn.preprocessing import OrdinalEncoder
 # 定义顺序
-item_size_categories=[['lge', 'med', 'sml', 'xlge', 'med-lge', 'jbo', 'exjbo']]
+item_size_categories=[['sml','lge', 'med',  'xlge', 'med-lge', 'jbo', 'exjbo']]
 ```
