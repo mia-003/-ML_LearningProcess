@@ -163,14 +163,14 @@ CT = ColumnTransformer(transformers=[
         ('cat', categorical_encoder, categorical_features)
         ])
 CT.set_output(transform='pandas') # 设置输出格式
-# 转换，转换后的结果不影响pumpkins,保存在encoded_features
+# 生成bian ma
 encoded_features = CT.fit_transform(pumpkins)
 
 %% 处理y %%
 from sklearn.preprocessing import LabelEncoder
 # 创建编码器
 label_encoder = LabelEncoder()
-# 声称编码后的列
+# 声称编码后的y列
 encoded_label = label_encoder.fit_transform(pumpkins['Color'])
 
 %% 生成编码后的完整数据集 %%
