@@ -188,5 +188,5 @@ sns.catplot(
         sharex=False, margin_titles=True,
         height=1.8, aspect=4,
     )
-
+sns.swarmplot(x="Color", y="ord__Item Size", data=encoded_pumpkins,)
 ```
