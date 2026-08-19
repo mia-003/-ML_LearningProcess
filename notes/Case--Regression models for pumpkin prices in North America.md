@@ -118,4 +118,4 @@ X = pd.get_dummies(pumpkins['Variety'])
 ```
 结果为：MAE=1.79；R2=0.93，显著提升。
 
-## 逻辑回归（用于预测fen lei）
+## 逻辑回归（用于预测分类）
