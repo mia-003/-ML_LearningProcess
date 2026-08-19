@@ -136,7 +136,7 @@ sns.catplot(
 # 查看所有值
 print(pumpkins["Item Size"].unique())
 # 去除空行
-
+pumpkins = pumpkins.dropna(subset=["Item Size"], inplace=True)
 from sklearn.preprocessing import OrdinalEncoder
 # 定义顺序
 item_size_categories=[["","","","",""]]
