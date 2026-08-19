@@ -188,4 +188,5 @@ sns.catplot(
         sharex=False, margin_titles=True,
         height=1.8, aspect=4,
     )
+
 ```
