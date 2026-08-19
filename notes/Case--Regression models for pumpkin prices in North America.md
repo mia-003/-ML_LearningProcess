@@ -73,6 +73,7 @@ for i, var in enumerate(pumpkins["Variety"].unique()):
 ```
 408
 发现不同Variety的价格相差更大，PIE TYPE整体价格比MINIATURE都低。所以假设价格和Variety有相关性。取其中Variety为'PIE TYPE'的数据进行回归分析。
+## 线性回归
 ```
 %% 调用线性模型 %%
 X=pumpkins[["day_of_year"]].to_numpy().reshape(-1,1) # 转二维,转二维需要用np的reshape方法,所以要先转np
