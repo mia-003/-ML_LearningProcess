@@ -133,6 +133,7 @@ sns.catplot(
 数据预处理
 ```
 %% 编码有自然顺序的非数值变量 %%
+# 
 from sklearn.preprocessing import OrdinalEncoder
 # 定义顺序
 item_size_categories=[["","","","",""]]
