@@ -191,3 +191,11 @@ sns.catplot(
 sns.swarmplot(x="Color", y="ord__Item Size", data=encoded_pumpkins,)
 ```
 
+```
+from sklearn.model_selection import train_test_split
+
+X = encoded_pumpkins[encoded_pumpkins.columns.difference(['Color'])]
+y = encoded_pumpkins['Color']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+```
