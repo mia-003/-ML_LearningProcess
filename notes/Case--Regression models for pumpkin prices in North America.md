@@ -82,10 +82,14 @@ line_reg_model=LinearRegression()
 line_reg_model.fit(X_train, y_train)
 pred_y=line_reg_model.predict(X_test)
 %% 评估模型 %%
-MAE=mean_squared_error(y_test, pred_y)
-RMSE=np.sqrt(MAE)
+MAE = mean_absolute_error(y_test, pred_y)
+MSE=mean_squared_error(y_test, pred_y)
+RMSE=np.sqrt(MSE)
 R2=r2_score(y_test, pred_y)
 print("MAE:", f"{MAE:3f}")
+print("MSE:", f"{MSE:3f}")
+
 print("RMSE:", f"{RMSE:3f}")
+
 print("R2:", f"{R2:3f}")
 ```
