@@ -163,7 +163,7 @@ CT = ColumnTransformer(transformers=[
         ('cat', categorical_encoder, categorical_features)
         ])
 CT.set_output(transform='pandas') # 设置输出格式
-# 生成bian ma
+# 生成编码后的X变量列
 encoded_features = CT.fit_transform(pumpkins)
 
 %% 处理y %%
