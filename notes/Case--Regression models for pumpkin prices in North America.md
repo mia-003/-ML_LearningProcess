@@ -61,6 +61,8 @@ sns.catplot(x=month, y=price, kind="bar")
 %% pd.to_datetime()转日期格式；.dt访问日期；dayofyear一年中的第几天 %%
 pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
 ```
+
+
 找另外一个变量Variety，假设和Variety有相关性。
 ```
 %% 在价格散点图上区分不同Variety的颜色，初步观察 %%
