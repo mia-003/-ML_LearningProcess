@@ -159,7 +159,6 @@ CT = ColumnTransformer(transformers=[
         ('ord', ordinal_encoder, ordinal_features),
         ('cat', categorical_encoder, categorical_features)
         ])
-    
-CT.set_output(transform='pandas')
+CT.set_output(transform='pandas') # 设置输出格式
 encoded_features = CT.fit_transform(pumpkins)
 ```
