@@ -109,5 +109,5 @@ pred_y=pipeline.predict(X_test)
 - One-hot encoding：把category转换为1/0编码
 ```
 X = pd.get_dummies(pumpkins['Variety'])
-y = pumpkins['']
+y = pumpkins['Price']
 ```
