@@ -102,3 +102,4 @@ pipeline = make_pipeline(PolynomialFeatures(degree=2), LinearRegression()) # 最
 pipeline.fit(X_train,y_train)
 pred_y=pipeline.predict(X_test)
 ```
+结果为：MAE=9.104742； MSE=108.258397； RMSE=10.404730； R2=0.002633
