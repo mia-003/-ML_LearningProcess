@@ -105,4 +105,4 @@ pred_y=pipeline.predict(X_test)
 结果为：MAE=8.86；R2=0.036
 略有提升，但仍不显著。
 
-非数值型变量特征
+非数值型变量特征Category
