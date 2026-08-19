@@ -54,7 +54,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 print(mean_squared_error(y_test, y_pred))
 print(r2_score(y_test, y_pred))
 
-%% 分类用F1和 %%
+%% 分类用F1和混淆矩阵 %%
 ```
 #### 绘制结果图 Plotting
 ```
