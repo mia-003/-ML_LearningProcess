@@ -144,7 +144,7 @@ item_size_categories=[['sml','med','med-lge','lge','xlge','jbo','exjbo']]
 # 创建编码器
 ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
 # 进行编码(必须输入二维)
-encoded_size = ordinal_encoder.fit_transform(pumpkins[['Item Size']])
+
 
 %% 处理没有自然顺序的类别非数值变量 %%
 from sklearn.preprocessing import OneHotEncoder
