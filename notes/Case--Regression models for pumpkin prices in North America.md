@@ -56,7 +56,7 @@ sns.catplot(x=month, y=price, kind="bar")
 
 查看相关系数。当月份作为变量时，相关系数为-0.14. 
 `print(pumpkins['month'].corr(pumpkins['avg_price']))`
-当day作为变量时，相关系数为-0.046
+当day作为变量时，相关系数为-0.16，略微提升。
 ```
 %% pd.to_datetime()转日期格式；.dt访问日期；dayofyear一年中的第几天 %%
 pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
