@@ -106,4 +106,5 @@ pred_y=pipeline.predict(X_test)
 略有提升，但仍不显著。
 
 非数值型变量特征Categorical Features
-- One-hot encoding：把categoryzhua
+- One-hot encoding：把category转换为1/0编码
+
