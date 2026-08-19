@@ -62,7 +62,6 @@ sns.catplot(x=month, y=price, kind="bar")
 pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
 ```
 
-发现不同Variety的价格相差更大，PIE TYPE整体价格比MINIATURE都低。所以假设价格和Variety有相关性。取其中Variety为'PIE TYPE'的数据进行回归分析。
 ```
 %% 在价格散点图上区分不同Variety的颜色，初步观察 %%
 ax = None # 画布
@@ -73,3 +72,4 @@ for i, var in enumerate(pumpkins["Variety"].unique()):
     ax = variety.plot.scatter(x="day_of_year", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个轴
 ```
 408
+发现不同Variety的价格相差更大，PIE TYPE整体价格比MINIATURE都低。所以假设价格和Variety有相关性。取其中Variety为'PIE TYPE'的数据进行回归分析。
