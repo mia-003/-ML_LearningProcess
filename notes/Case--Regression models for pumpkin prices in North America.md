@@ -144,5 +144,5 @@ item_size_categories=[['sml','med','med-lge','lge','xlge','jbo','exjbo']]
 # 创建编码器
 ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
 # 进行编码
-encoded_size = ordinal_encoder.fit_transform(pumpkins['Item Size'])
+encoded_size = ordinal_encoder.fit_transform(pumpkins[[]'Item Size'])
 ```
