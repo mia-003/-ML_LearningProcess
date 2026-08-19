@@ -143,12 +143,11 @@ from sklearn.preprocessing import OrdinalEncoder
 item_size_categories=[['sml','med','med-lge','lge','xlge','jbo','exjbo']]
 # 创建编码器
 ordinal_encoder=OrdinalEncoder(categories=item_size_categories)
-# 进行编码(必须输入二维)
 
 
 %% 处理没有自然顺序的类别非数值变量 %%
 from sklearn.preprocessing import OneHotEncoder
-# 
+# 定义需要处理的类别列
 categorical_features = ['City Name', 'Package', 'Variety', 'Origin']
 # 创建编码器
 categorical_encoder = OneHotEncoder(sparse_output=False)
