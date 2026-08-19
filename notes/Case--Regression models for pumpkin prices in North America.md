@@ -177,3 +177,5 @@ encoded_label = label_encoder.fit_transform(pumpkins['Color'])
 # 把encoded_label添加到encoded_features中，为encoded_pumpkins
 encoded_pumpkins=encoded_features.assign(Color=encoded_label)
 ```
+
+分别shi yong
