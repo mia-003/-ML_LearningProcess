@@ -106,3 +106,4 @@ pred_y=pipeline.predict(X_test)
 略有提升，但仍不显著。
 
 非数值型变量特征Categorical Features
+- One-hot encoding
