@@ -131,8 +131,8 @@ sns.catplot(
 ```
 
 数据预处理
-- 处理有顺序非数值变量
-- 处理无顺序非数值变量
+- 处理有顺序非数值X变量
+- 处理无顺序非数值X变量
 - 标签化处理y变量
 ```
 %% 编码有自然顺序的非数值变量 %%
@@ -165,4 +165,6 @@ CT = ColumnTransformer(transformers=[
 CT.set_output(transform='pandas') # 设置输出格式
 # 转换，转换后的结果不影响pumpkins,保存在encoded_features
 encoded_features = CT.fit_transform(pumpkins)
+
+
 ```
