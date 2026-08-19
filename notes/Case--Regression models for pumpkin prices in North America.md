@@ -61,7 +61,6 @@ sns.catplot(x=month, y=price, kind="bar")
 %% pd.to_datetime()转日期格式；.dt访问日期；dayofyear一年中的第几天 %%
 pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
 ```
-370
 
 发现不同Variety的价格相差更大，PIE TYPE整体价格比MINIATURE都低。所以假设价格和Variety有相关性。取其中Variety为'PIE TYPE'的数据进行回归分析。
 ```
