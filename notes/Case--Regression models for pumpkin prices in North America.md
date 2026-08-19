@@ -170,4 +170,5 @@ encoded_features = CT.fit_transform(pumpkins)
 from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 encoded_label = label_encoder.fit_transform(pumpkins['Color'])
+
 ```
