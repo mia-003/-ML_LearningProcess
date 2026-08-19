@@ -58,6 +58,7 @@ sns.catplot(x=month, y=price, kind="bar")
 `print(pumpkins['month'].corr(pumpkins['avg_price']))`
 当day作为变量时，相关系数为-0.046
 ```
+%%  %%
 pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
 ```
 找另外一个变量Variety，假设和Variety有相关性。
