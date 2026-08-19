@@ -63,7 +63,7 @@ pumpkins["day_of_year"]=pd.to_datetime(pumpkins["Date"]).dt.dayofyear
 ```
 370
 
-发现不同Variety的价格相差更大，PIE TYPE。取其中Variety为'PIE TYPE'的数据进行回归分析。找另外一个变量Variety，假设和Variety有相关性。
+发现不同Variety的价格相差更大，PIE TYPE整体价格比。取其中Variety为'PIE TYPE'的数据进行回归分析。找另外一个变量Variety，假设和Variety有相关性。
 ```
 %% 在价格散点图上区分不同Variety的颜色，初步观察 %%
 ax = None # 画布
