@@ -87,6 +87,5 @@ RMSE=np.sqrt(MAE)
 R2=r2_score(y_test, pred_y)
 print("MAE:", f"{MAE:3f}")
 print("RMSE:", f"{RMSE:3f}")
-
 print("R2:", f"{R2:3f}")
 ```
