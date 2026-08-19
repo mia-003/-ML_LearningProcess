@@ -112,6 +112,6 @@ X = pd.get_dummies(pumpkins['Variety'])
 y = pumpkins['Price']
 %% 或者组合多个特征 %%
 X = pd.get_dummies(pumpkins['Variety'])
-	.join(pd.get_dummies(pumpkins['City']))
-	.join(pumpkins[Month'])
+	.join(pd.get_dummies(pumpkins['City'])) # 
+	.join(pumpkins['Month'])
 ```
