@@ -186,6 +186,6 @@ sns.catplot(
         x="Item Size", y="Color", row='Variety',
         kind="box", orient="h",
         sharex=False, margin_titles=True,
-        height=1.8, aspect=4, palette=palette,
+        height=1.8, aspect=4,
     )
 ```
