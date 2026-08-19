@@ -93,7 +93,7 @@ print("R2:", f"{R2:3f}")
 ```
 结果为：MAE=9.104742； MSE=108.258397； RMSE=10.404730； R2=0.002633
 MAE说明平均预测价格和真实价格相差约$9，R2接近0说明模型几乎没有学习到线形特征
-# 多项式
+## 多项式回归
 ```
 %% 调用多项式模型 %%
 from sklearn.preprocessing import PolynomialFeatures
