@@ -40,7 +40,7 @@ Flask是Python web框架
 from flask import Flask
 app = Flask(__name__)
 
-%% 当用户打开"/"，执行“打开首页”函数，使用render_template()函数在templates文件夹下返回html %%
+%% 当用户打开"/"，执行“打开首页”函数，使用render_template()函数在templates文件夹下找到html文件并返回 %%
 @app.route("/", methods=["GET"]
 def open_homepage():
 	return render_template("index.html")
