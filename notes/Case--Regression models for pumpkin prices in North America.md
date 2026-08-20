@@ -71,7 +71,7 @@ for i, var in enumerate(pumpkins["Variety"].unique()):
     variety=pumpkins[pumpkins["Variety"]==var]
     ax = variety.plot.scatter(x="day_of_year", y="avg_price", color=colors[i], label=var, ax=ax) # ax=ax：每次遍历都画在同一个轴
 ```
-408
+<img src="../assets/Pasted%20image%2020260819115823.png" alt="Pasted image 20260819115823" width="408">
 发现不同Variety的价格相差更大，PIE TYPE整体价格比MINIATURE都低。所以假设价格和Variety有相关性。
 ## 线性回归
 ```
