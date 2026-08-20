@@ -19,5 +19,6 @@ pip install -r requirements.txt
 343
 在vscode终端运行
 ```
+python app.py
 
-```
+
