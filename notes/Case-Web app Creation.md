@@ -16,6 +16,4 @@ pip install -r requirements.txt
 ```
 
 在static/css下创建style.css文件、在templates下创建index.html文件、在web-app下创建app.py文件
-
-
-
+截屏2026-08-21 04.04.31.png
