@@ -51,8 +51,8 @@ def open_homepage():
 @app.route("/predict", methods=["POST"])
 def return_result():
 	features = [
-	float(x)
-	for x in request.form.values()]
+		float(x)
+		for x in request.form.values()]
 	final_features = [np.array(features)]
 	pred_result = ufos_model.predict(final_features)
 	return render_template(
