@@ -42,10 +42,10 @@ from flask import Flask, render_template, request
 # 创建储存html的文件夹templates
 app = Flask(__name__, template_folder="templates")
 
-%% 当用户打开"/"，执行“打开首页”函数，使用render_template()函数在templates文件夹下找到html文件并返回 %%
+%% 当用户打开"/"，执行“打开首页”函数，使用render_template对象在templates文件夹下找到html文件并返回 %%
 @app.route("/", methods=["GET"]
 def open_homepage():
 	return render_template("index.html")
-%% 当用户打开"/predict"，执行“返回结果”han %%	
+%% 当用户打开"/predict"，执行“返回结果”函数，使用request对象 %%	
 # request
 ```
