@@ -50,13 +50,13 @@ def open_homepage():
 # request对象用于保存浏览器返回给服务器的数据
 @app.route("/predict", methods=["POST"])
 def return_result():
-features = [
-float(x)
-for x in request.form.values()]
-final_features = [np.array(features)]
-pred_result = ufos_model.predict(final_features)
-return render_template(
-"index.html",
-prediction_text=f"Likely country:{pred_result[0]}")
+	features = [
+	float(x)
+	for x in request.form.values()]
+	final_features = [np.array(features)]
+	pred_result = ufos_model.predict(final_features)
+	return render_template(
+	"index.html",
+	prediction_text=f"Likely country:{pred_result[0]}")
 
 ```
