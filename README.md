@@ -117,8 +117,8 @@ r2 = r2_score(y_test, y_pred)
 ### 模型 web应用
 [Web应用-- UFO-model](notes/Web%E5%BA%94%E7%94%A8--%20UFO-model.md)
 Pickle和Flask都是Python的工具。
-- Pickle用于保存和加载模型对象（在电脑h）
-- 使用Flask建立服务器和网页应用
+- Pickle用于保存和加载模型对象（在电脑或服务器上）
+- Flask用于建立服务器和网页应用
 ### 分类classification
 ### 聚类clustering
 ### NLP
