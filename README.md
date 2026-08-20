@@ -121,7 +121,7 @@ Pickle和Flask都是Python的工具。
 - Flask用于建立服务器和网页应用的联系，能够从浏览器向服务器发送请求（调用模型）
 [Case-Web app Creation](notes/Case-Web%20app%20Creation.md)
 notebook.ipynb：用于训练模型并保存模型为pkl文件
-app.py：yong yu
+app.py：使用调用模型
 ### 分类classification
 ### 聚类clustering
 ### NLP
