@@ -56,7 +56,7 @@ def return_result():
 	final_features = [np.array(features)]
 	pred_result = ufos_model.predict(final_features)
 	return render_template(
-	"index.html",
-	prediction_text=f"Likely country:{pred_result[0]}")
+		"index.html",
+		prediction_text=f"Likely country:{pred_result[0]}")
 
 ```
