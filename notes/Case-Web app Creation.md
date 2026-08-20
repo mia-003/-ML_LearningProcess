@@ -20,6 +20,7 @@ pip install -r requirements.txt
 
 在static/css下创建style.css文件、在templates下创建index.html文件、在web-app下创建app.py文件
 
+
 <img src="../assets/%E6%88%AA%E5%B1%8F2026-08-21%2004.04.31.png" alt="截屏2026-08-21 04.04.31" width="343">
 在vscode终端运行
 ```
