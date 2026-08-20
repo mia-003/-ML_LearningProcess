@@ -38,6 +38,7 @@ Flask是Python web框架
 ```
 %% 创建flask应用 %%
 from flask import Flask, render_template, request
+
 # 创建储存html的文件夹templates
 app = Flask(__name__, template_folder="templates")
 
@@ -45,6 +46,6 @@ app = Flask(__name__, template_folder="templates")
 @app.route("/", methods=["GET"]
 def open_homepage():
 	return render_template("index.html")
-%% 当用户 %%	
+%% 当用户打开"/" %%	
 # request
 ```
