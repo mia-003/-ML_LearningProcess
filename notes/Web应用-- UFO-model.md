@@ -61,3 +61,4 @@ def return_result():
 		prediction_text=f"Likely country:{pred_result[0]}")
 
 ```
+
