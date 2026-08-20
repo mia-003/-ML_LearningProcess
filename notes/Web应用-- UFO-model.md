@@ -48,6 +48,30 @@ def open_homepage():
 	return render_template("index.html")
 %% 当用户打开"/predict"，执行“返回结果”函数，使用request对象储存用户输入的x，调用模型，返回y %%	
 # request对象用于保存浏览器返回给服务器的数据
+@app.route("/predict", methods=["POST"])
 
+def return_result():
+
+features = [
+
+float(x)
+
+for x in request.form.values()]
+
+  
+
+final_features = [np.array(features)]
+
+  
+
+pred_result = ufos_model.predict(final_features)
+
+  
+
+return render_template(
+
+"index.html",
+
+prediction_text=f"Likely country: {pred_result[0]}")
 
 ```
