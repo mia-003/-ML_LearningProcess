@@ -46,4 +46,5 @@ app = Flask(__name__, template_folder="templates")
 def open_homepage():
 	return render_template("index.html")
 %% 当用户 %%	
+# request
 ```
