@@ -15,4 +15,4 @@ pwd
 pip install -r requirements.txt
 ```
 
-创建
+创建css
