@@ -36,7 +36,7 @@ Flask是Python web框架
 - 接收网页表单数据（用户输入）
 - 调用模型并返回预测结果（返回带有结果的html）
 ```
-%% chuang %%
+%% 创建flask应用 %%
 from flask import Flask
 app = Flask(__name__)
 
