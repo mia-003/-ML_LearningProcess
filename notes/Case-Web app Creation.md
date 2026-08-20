@@ -22,3 +22,4 @@ pip install -r requirements.txt
 python app.py
 ```
 输出网址：http://127.0.0.1:5000
+截屏2026-08-21 04.07.00.png
