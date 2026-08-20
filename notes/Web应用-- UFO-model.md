@@ -38,7 +38,7 @@ Flask是Python web框架
 ```
 %% 创建flask应用 %%
 from flask import Flask
-# 创建
+# 创建储存html的文件夹templates
 app = Flask(__name__, template_folder="templates")
 
 %% 当用户打开"/"，执行“打开首页”函数，使用render_template()函数在templates文件夹下找到html文件并返回 %%
