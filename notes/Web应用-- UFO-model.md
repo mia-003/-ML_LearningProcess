@@ -54,17 +54,9 @@ features = [
 float(x)
 for x in request.form.values()]
 final_features = [np.array(features)]
-
-  
-
 pred_result = ufos_model.predict(final_features)
-
-  
-
 return render_template(
-
 "index.html",
-
-prediction_text=f"Likely country: {pred_result[0]}")
+prediction_text=f"Likely country:{pred_result[0]}")
 
 ```
