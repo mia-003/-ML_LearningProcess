@@ -35,7 +35,7 @@ Flask是Python web框架
 - 启动本地网站（首页html）
 - 接收网页表单数据（用户输入）
 - 调用模型并返回预测结果（返回带有结果的html）
-http
+http的两种方法“GET”、“POST”
 ```
 %% 创建flask应用 %%
 from flask import Flask, render_template, request
