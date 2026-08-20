@@ -37,7 +37,7 @@ Flask是Python web框架
 - 调用模型并返回预测结果（返回带有结果的html）
 ```
 %% 创建flask应用 %%
-from flask import Flask
+from flask import Flask, render_template, request
 # 创建储存html的文件夹templates
 app = Flask(__name__, template_folder="templates")
 
