@@ -15,4 +15,4 @@ pwd
 pip install -r requirements.txt
 ```
 
-创建style.css文件
+创建style.css文件和index.h
