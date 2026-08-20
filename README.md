@@ -122,7 +122,7 @@ Pickle和Flask都是Python的工具。
 [Case-Web app Creation](notes/Case-Web%20app%20Creation.md)
 notebook.ipynb：用于训练模型并保存模型为pkl文件
 app.py：使用flask调用模型
-
+ufo-model.pkl：bao cun
 ### 分类classification
 ### 聚类clustering
 ### NLP
