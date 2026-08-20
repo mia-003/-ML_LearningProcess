@@ -8,6 +8,7 @@
 <img src="../assets/%E6%88%AA%E5%B1%8F2026-08-21%2003.43.02.png" alt="截屏2026-08-21 03.43.02" width="289">
 
 创建文件：requirements.txt，写入需要的库
+
 <img src="../assets/%E6%88%AA%E5%B1%8F2026-08-21%2003.46.41.png" alt="截屏2026-08-21 03.46.41" width="421">
 
 从vscode终端进入web-app并安装依赖
