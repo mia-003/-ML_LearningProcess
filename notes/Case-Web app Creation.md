@@ -15,5 +15,6 @@ pwd
 pip install -r requirements.txt
 ```
 
-在static/css下创建style.css文件和在templatesindex.html
+在static/css下创建style.css文件和在templates下创建index.html文件
+
 
