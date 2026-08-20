@@ -3,7 +3,8 @@
   "files": [
     "README.md",
     "notes/Case--Regression models for pumpkin prices in North America.md",
-    "notes/NumPy & Pandas.md"
+    "notes/NumPy & Pandas.md",
+    "notes/Web应用-- UFO-model.md"
   ],
   "excluded_directories": [
     "daily notes",
