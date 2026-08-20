@@ -64,5 +64,73 @@ def return_result():
 
 调用模型代码（已训练）：
 ```
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+ufos = pd.read_csv("/Users/zhouxiangyue/Documents/ML/ML_DataSet/web_app_practice/ufo_sightings/ufos.csv")
+# ufos.head(10)
+# 2. 只保留本项目需要的四列，并改成更清楚的列名
+ufos = ufos[
+    ["duration (seconds)", "country", "latitude", "longitude"]
+].copy()
+ufos.columns = ["Seconds", "Country", "Latitude", "Longitude"]
 
-```
+
+# 3. 确保三个特征都是数字；无法转换的内容会变成缺失值 NaN
+numeric_columns = ["Seconds", "Latitude", "Longitude"]
+ufos[numeric_columns] = ufos[numeric_columns].apply(
+    pd.to_numeric,
+    errors="coerce",
+)
+
+# 删除四个字段中存在缺失值的行，并只保留持续 1～60 秒的记录
+ufos.dropna(inplace=True)
+ufos = ufos[ufos["Seconds"].between(1, 60)].copy()
+
+# 4. 把国家名称编码成模型可以处理的整数类别
+label_encoder = LabelEncoder()
+ufos["Country"] = label_encoder.fit_transform(ufos["Country"])
+
+country_code_map = {
+    country: int(code)
+    for code, country in enumerate(label_encoder.classes_)
+}
+
+# 5. X 是输入特征，y 是模型要预测的国家类别
+X = ufos[["Seconds", "Latitude", "Longitude"]]
+y = ufos["Country"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=0,
+    stratify=y,
+)
+
+# 6. 训练逻辑回归分类模型
+ufos_model = LogisticRegression(max_iter=1000)
+ufos_model.fit(X_train, y_train)
+
+
+# 7. 使用从未参与训练的测试集评估模型
+y_pred = ufos_model.predict(X_test)
+
+print(f"清洗后的数据量：{len(ufos):,} 行")
+print(f"训练集：{len(X_train):,} 行")
+print(f"测试集：{len(X_test):,} 行")
+print(f"国家编码：{country_code_map}")
+print(f"准确率：{accuracy_score(y_test, y_pred):.2%}")
+print("\n分类报告：")
+print(
+    classification_report(
+        y_test,
+        y_pred,
+        labels=range(len(label_encoder.classes_)),
+        target_names=label_encoder.classes_,
+        zero_division=0,
+    )
+)```
