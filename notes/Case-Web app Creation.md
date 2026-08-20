@@ -1,8 +1,10 @@
 ## 创建Web app文件结构
 目前结构：
+
 <img src="../assets/%E6%88%AA%E5%B1%8F2026-08-21%2003.39.56.png" alt="截屏2026-08-21 03.39.56" width="275">
 
 创建web-app文件夹：
+
 <img src="../assets/%E6%88%AA%E5%B1%8F2026-08-21%2003.43.02.png" alt="截屏2026-08-21 03.43.02" width="289">
 
 创建文件：requirements.txt，写入需要的库
