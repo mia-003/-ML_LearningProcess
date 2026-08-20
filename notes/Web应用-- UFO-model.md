@@ -46,6 +46,6 @@ app = Flask(__name__, template_folder="templates")
 @app.route("/", methods=["GET"]
 def open_homepage():
 	return render_template("index.html")
-%% 当用户打开"/" %%	
+%% 当用户打开"/predict"， %%	
 # request
 ```
