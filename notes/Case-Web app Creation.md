@@ -15,5 +15,5 @@ pwd
 pip install -r requirements.txt
 ```
 
-创建style.css文件和index.html
+在cssxi创建style.css文件和index.html
 
